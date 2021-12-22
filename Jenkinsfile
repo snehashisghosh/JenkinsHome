@@ -10,7 +10,7 @@ node {
     def TEST_LEVEL='RunLocalTests'
     def PACKAGE_NAME='0Ho5Y00000000JGSAY'
     def PACKAGE_VERSION
-    def SF_INSTANCE_URL = env.SF_INSTANCE_URL ?: "https://login.salesforce.com"
+    def SF_INSTANCE_URL = env.SFDC_HOST_DH ?: "https://login.salesforce.com"
     
     println 'Keying'
     println SF_CONSUMER_KEY
